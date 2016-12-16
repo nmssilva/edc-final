@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Presidentes>
+  
+  <Presidente ID="1">
+    <nome>Manuel de Arriaga</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/d/da/De_Arriaga.jpg</image>
+    <inicio>1911</inicio>
+    <fim>1915</fim>
+    <nascimento>8 de julho de 1840</nascimento>
+    <morte>5 de março de 1917</morte>
+    <partidos>
+      <partido>Partido Republicano Português</partido>
+    </partidos>
+    <esposa>Lucrécia de Brito Furtado</esposa>
+  </Presidente>
+
+  <Presidente ID="2">
+    <nome>Teófilo Braga</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/8/80/Teofilo_Braga.jpg</image>
+    <inicio>1915</inicio>
+    <fim>1915</fim>
+    <nascimento>24 de fevereiro de 1843</nascimento>
+    <morte>28 de janeiro de 1924</morte>
+    <partidos>
+      <partido>Partido Democrático</partido>
+    </partidos>
+    <esposa>Maria do Carmo Xavier Braga</esposa>
+  </Presidente>
+
+  <Presidente ID="3">
+    <nome>Bernardino Machado</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/f/f3/Bernardino_Machado.jpg</image>
+    <inicio>1915</inicio>
+    <fim>1917</fim>
+    <nascimento>28 de março de 1851</nascimento>
+    <morte>29 de abril de 1944</morte>
+    <partidos>
+      <partido>Partido Democrático</partido>
+    </partidos>
+    <esposa>Elzira Dantas Gonçalves Pereira</esposa>
+  </Presidente>
+
+  <Presidente ID="4">
+    <nome>Sidónio Pais</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/8/88/Sid%C3%B3nio_Pais.jpg</image>
+    <inicio>1918</inicio>
+    <fim>1918</fim>
+    <nascimento>1 de maio de 1872</nascimento>
+    <morte>14 de dezembro de 1918</morte>
+    <partidos>
+      <partido>Partido Nacional Republicano</partido>
+    </partidos>
+    <esposa>Maria dos Prazeres Martins Bessa Pais</esposa>
+  </Presidente>
+
+  <Presidente ID="5">
+    <nome>João do Canto e Castro</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/1/1e/Canto_e_Castro.jpg</image>
+    <inicio>1918</inicio>
+    <fim>1919</fim>
+    <nascimento>19 de maio de 1862</nascimento>
+    <morte>14 de março de 1934</morte>
+    <partidos>
+      <partido>Partido Nacional Republicano</partido>
+    </partidos>
+    <esposa>Mariana de Santo António Moreira Freire Correia Manuel Torres de Aboim</esposa>
+  </Presidente>
+
+  <Presidente ID="6">
+    <nome>António José de Almeida</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/6/61/Antonio_Jose_de_Almeida.jpg</image>
+    <inicio>1919</inicio>
+    <fim>1923</fim>
+    <nascimento>17 de julho de 1866</nascimento>
+    <morte>31 de outubro de 1929</morte>
+    <partidos>
+      <partido>Partido Evolucionista</partido>
+      <partido>Partido Liberal Republicano</partido>
+      <partido>Liberal Republicano</partido>
+    </partidos>
+    <esposa>Maria Joana Perdigão Queiroga de Almeida</esposa>
+  </Presidente>
+
+  <Presidente ID="7">
+    <nome>Manuel Teixeira Gomes</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/c/ce/Marques-oliveira_teixeira-gomes-1.jpg</image>
+    <inicio>1923</inicio>
+    <fim>1925</fim>
+    <nascimento>27 de maio de 1860</nascimento>
+    <morte>18 de outubro de 1941</morte>
+    <partidos>
+      <partido>Partido Democrático</partido>
+    </partidos>
+    <esposa>Belmira das Neves</esposa>
+  </Presidente>
+
+  <Presidente ID="8">
+    <nome>Bernardino Machado</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/f/f3/Bernardino_Machado.jpg</image>
+    <inicio>1925</inicio>
+    <fim>1926</fim>
+    <nascimento>28 de março de 1851</nascimento>
+    <morte>29 de abril de 1944</morte>
+    <partidos>
+      <partido>Partido Democrático</partido>
+    </partidos>
+    <esposa>Elzira Dantas Gonçalves Pereira</esposa>
+  </Presidente>
+
+  <Presidente ID="9">
+    <nome>José Mendes Cabeçadas</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/f/f2/President_Jos%C3%A9_Mendes_Cabe%C3%A7adas.jpg</image>
+    <inicio>1926</inicio>
+    <fim>1926</fim>
+    <nascimento>19 de setembro de 1883</nascimento>
+    <morte>2 de junho de 1965</morte>
+    <partidos>
+      <partido>Independente</partido>
+    </partidos>
+    <esposa>Maria das Dores Formosinho Vieira Cabeçadas</esposa>
+  </Presidente>
+
+  <Presidente ID="10">
+    <nome>Manuel Gomes da Costa</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/c/c2/Gomes_da_costa.jpg</image>
+    <inicio>1926</inicio>
+    <fim>1926</fim>
+    <nascimento>14 de janeiro de 1863</nascimento>
+    <morte>17 de dezembro de 1929</morte>
+    <partidos>
+      <partido>Independente</partido>
+    </partidos>
+    <esposa>Henriqueta Júlia de Mira Godinho</esposa>
+  </Presidente>
+
+  <Presidente ID="11">
+    <nome>Óscar Carmona</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/4/44/Carmona.jpg</image>
+    <inicio>1926</inicio>
+    <fim>1951</fim>
+    <nascimento>24 de novembro de 1869</nascimento>
+    <morte>18 de abril de 1951</morte>
+    <partidos>
+      <partido>União Nacional</partido>
+    </partidos>
+    <esposa>Maria do Carmo Ferreira da Silva Carmona</esposa>
+  </Presidente>
+
+  <Presidente ID="12">
+    <nome>Francisco Craveiro Lopes</nome>
+    <image>https://upload.wikimedia.org/wikipedia/pt/c/cf/Francisco_Higino_Craveiro_Lopes.jpg</image>
+    <inicio>1951</inicio>
+    <fim>1958</fim>
+    <nascimento>12 de abril de 1894</nascimento>
+    <morte>2 de setembro de 1964</morte>
+    <partidos>
+      <partido>União Nacional</partido>
+    </partidos>
+    <esposa>Berta da Costa Ribeiro Arthur</esposa>
+  </Presidente>
+
+  <Presidente ID="13">
+    <nome>Américo Thomaz</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/a/a7/Am%C3%A9rico_Tom%C3%A1s.png</image>
+    <inicio>1958</inicio>
+    <fim>1974</fim>
+    <nascimento>19 de novembro de 1894</nascimento>
+    <morte>18 de setembro de 1987</morte>
+    <partidos>
+      <partido>União Nacional</partido>
+    </partidos>
+    <esposa>Gertrudes Ribeiro da Costa Thomaz</esposa>
+  </Presidente>
+
+  <Presidente ID="14">
+    <nome>António de Spínola</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/1/12/DuartePimentel04.jpg</image>
+    <inicio>1974</inicio>
+    <fim>1974</fim>
+    <nascimento>11 de abril de 1910</nascimento>
+    <morte>13 de agosto de 1996</morte>
+    <partidos>
+      <partido>Independente</partido>
+    </partidos>
+    <esposa>Maria Helena Martins Monteiro de Barros Spínola</esposa>
+  </Presidente>
+
+  <Presidente ID="15">
+    <nome>Francisco da Costa Gomes</nome>
+    <image>https://upload.wikimedia.org/wikipedia/pt/a/af/Francisco_da_Costa_Gomes.gif</image>
+    <inicio>1974</inicio>
+    <fim>1976</fim>
+    <nascimento>30 de Junho de 1914</nascimento>
+    <morte>31 de Julho de 2001</morte>
+    <partidos>
+      <partido>Independente</partido>
+    </partidos>
+    <esposa>Maria Estela Veloso de Antas Varajão</esposa>
+  </Presidente>
+
+  <Presidente ID="16">
+    <nome>António Ramalho Eanes</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/c/cd/Ant%C3%B3nio_Ramalho_Eanes.jpg</image>
+    <inicio>1976</inicio>
+    <fim>1986</fim>
+    <nascimento>25 de janeiro de 1935</nascimento>
+    <partidos>
+      <partido>Independente</partido>
+    </partidos>
+    <esposa>Manuela Ramalho Eanes</esposa>
+  </Presidente>
+
+  <Presidente ID="17">
+    <nome>Mário Soares</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/8/81/M%C3%A1rio_Soares_%282003%29.jpeg</image>
+    <inicio>1986</inicio>
+    <fim>1996</fim>
+    <nascimento>7 de dezembro de 1924</nascimento>
+    <partidos>
+      <partido>Partido Socialista</partido>
+    </partidos>
+    <esposa>Maria Barroso</esposa>
+  </Presidente>
+
+  <Presidente ID="18">
+    <nome>Jorge Sampaio</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/e/e5/Jorge_Sampaio_3.jpg</image>
+    <inicio>1996</inicio>
+    <fim>2006</fim>
+    <nascimento>	18 de setembro de 1939</nascimento>
+    <partidos>
+      <partido>Partido Socialista</partido>
+    </partidos>
+    <esposa>Maria José Rodrigues Ritta</esposa>
+  </Presidente>
+
+  <Presidente ID="19">
+    <nome>Aníbal Cavaco Silva</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/1/1b/Cavaco_Silva_2007.jpg</image>
+    <inicio>2006</inicio>
+    <fim>2016</fim>
+    <nascimento>15 de julho de 1939</nascimento>
+    <partidos>
+      <partido>Partido Social Democrata</partido>
+    </partidos>
+    <esposa>Maria Cavaco Silva</esposa>
+  </Presidente>
+
+  <Presidente ID="20">
+    <nome>Marcelo Rebelo de Sousa</nome>
+    <image>https://upload.wikimedia.org/wikipedia/commons/8/8e/MarceloRebeloDeSousa_10Jun2016.png</image>
+    <inicio>2016</inicio>
+    <nascimento>12 de dezembro de 1948</nascimento>
+    <partidos>
+      <partido>Partido Social Democrata</partido>
+    </partidos>
+  </Presidente>
+  
+</Presidentes>
