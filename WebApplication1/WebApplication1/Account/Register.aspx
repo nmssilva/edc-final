@@ -11,7 +11,7 @@
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="Name" CssClass="col-md-2 control-label">Name</asp:Label>
+            <asp:Label runat="server" AssociatedControlID="Name" CssClass="col-md-2 control-label">Nome</asp:Label>
             <div class="col-md-10">
                 <asp:TextBox runat="server" ID="Name" CssClass="form-control" TextMode="SingleLine" />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"

@@ -11,7 +11,7 @@
                     <asp:TextBox ID="TextBox5" runat="server" Text='<%# Bind("ID") %>'></asp:TextBox>
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# Eval("ID","~/Presidente?ID={0}" ) %>' Text='<%# Bind("ID") %>'></asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# Eval("ID","~/personal/Presidente?ID={0}" ) %>' Text='<%# Bind("ID") %>'></asp:HyperLink>
                 </ItemTemplate>
             </asp:TemplateField>
             <asp:TemplateField HeaderText="Imagem">
@@ -19,7 +19,7 @@
                     <asp:TextBox ID="TextBox4" runat="server" Text='<%# Eval("Imagem") %>'></asp:TextBox>
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:Image ID="Image1" runat="server" NavigateUrl='<%# Eval("ID","~/Presidente?ID={0}" ) %>' ImageUrl='<%# Eval("Imagem") %>' />
+                    <asp:Image ID="Image1" runat="server" NavigateUrl='<%# Eval("ID","~/personal/Presidente?ID={0}" ) %>' ImageUrl='<%# Eval("Imagem") %>' />
                 </ItemTemplate>
                 <ControlStyle Width="80px" />
                 <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />

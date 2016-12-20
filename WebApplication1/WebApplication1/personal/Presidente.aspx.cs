@@ -11,7 +11,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            XmlDataSource1.XPath = "Presidentes/Presidente[@ID='"+HttpContext.Current.Request.Url.AbsoluteUri.ToString().Split('=')[1]+"']";
         }
     }
 }

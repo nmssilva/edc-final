@@ -206,7 +206,8 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\pagination.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="FeedReader.aspx" />
+    <Content Include="personal\admin\UserManager.aspx" />
+    <Content Include="personal\FeedReader.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -221,10 +222,12 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="manageFeeds.aspx" />
-    <Content Include="Presidente.aspx" />
+    <Content Include="personal\manageFeeds.aspx" />
+    <Content Include="personal\Presidente.aspx" />
     <Content Include="presidente.xslt" />
     <Content Include="presidentes.xslt" />
+    <Content Include="personal\Web.config" />
+    <Content Include="personal\admin\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Presidentes.aspx" />
     <Content Include="Presidentes.xml" />
@@ -401,30 +404,45 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FeedReader.aspx.cs">
+    <Compile Include="Migrations\201612131438485_InitialCreate.cs" />
+    <Compile Include="Migrations\201612131438485_InitialCreate.Designer.cs">
+      <DependentUpon>201612131438485_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612191728155_FullName.cs" />
+    <Compile Include="Migrations\201612191728155_FullName.Designer.cs">
+      <DependentUpon>201612191728155_FullName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="personal\admin\UserManager.aspx.cs">
+      <DependentUpon>UserManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personal\admin\UserManager.aspx.designer.cs">
+      <DependentUpon>UserManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personal\FeedReader.aspx.cs">
       <DependentUpon>FeedReader.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FeedReader.aspx.designer.cs">
+    <Compile Include="personal\FeedReader.aspx.designer.cs">
       <DependentUpon>FeedReader.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="IISHandler1.cs" />
-    <Compile Include="manageFeeds.aspx.cs">
+    <Compile Include="personal\manageFeeds.aspx.cs">
       <DependentUpon>manageFeeds.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="manageFeeds.aspx.designer.cs">
+    <Compile Include="personal\manageFeeds.aspx.designer.cs">
       <DependentUpon>manageFeeds.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Presidente.aspx.cs">
+    <Compile Include="personal\Presidente.aspx.cs">
       <DependentUpon>Presidente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Presidente.aspx.designer.cs">
+    <Compile Include="personal\Presidente.aspx.designer.cs">
       <DependentUpon>Presidente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presidentes.aspx.cs">
@@ -458,7 +476,14 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612131438485_InitialCreate.resx">
+      <DependentUpon>201612131438485_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612191728155_FullName.resx">
+      <DependentUpon>201612191728155_FullName.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

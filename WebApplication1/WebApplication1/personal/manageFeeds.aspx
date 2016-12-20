@@ -66,6 +66,6 @@
         <PagerStyle CssClass="pagination-ys" />
         <PagerSettings Mode="Numeric" />
     </asp:FormView>
-    <asp:LinkButton ID="Feeds" PostBackUrl="~/FeedReader.aspx" runat="server" CssClass="btn btn-primary"><i class="fa fa-rss"></i>&nbsp;Feeds</asp:LinkButton>
+    <asp:LinkButton ID="Feeds" PostBackUrl="~/personal/FeedReader.aspx" runat="server" CssClass="btn btn-primary"><i class="fa fa-rss"></i>&nbsp;Feeds</asp:LinkButton>
         
 </asp:Content>

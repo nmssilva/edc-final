@@ -39,8 +39,8 @@
             <xsl:value-of select="morte"/>
           </xsl:attribute>
 
-          <xsl:attribute name="Partidos">
-            <xsl:value-of select="partidos"/>
+          <xsl:attribute name="Partido">
+            <xsl:value-of select="partido"/>
           </xsl:attribute>
 
           <xsl:attribute name="Esposa">

@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>Engenharia de Dados e Conhecimento</h1>
-        <p class="lead">Trabalho Prático Final <br /> Presidentes e Governo Portugues</p>
+        <p class="lead">Trabalho Prático Final <br /> Presidentes e Governo Português</p>
 
 
 

@@ -8,9 +8,7 @@
     <fim>1915</fim>
     <nascimento>8 de julho de 1840</nascimento>
     <morte>5 de março de 1917</morte>
-    <partidos>
-      <partido>Partido Republicano Português</partido>
-    </partidos>
+    <partido>Partido Republicano Português</partido>
     <esposa>Lucrécia de Brito Furtado</esposa>
   </Presidente>
 
@@ -21,9 +19,7 @@
     <fim>1915</fim>
     <nascimento>24 de fevereiro de 1843</nascimento>
     <morte>28 de janeiro de 1924</morte>
-    <partidos>
-      <partido>Partido Democrático</partido>
-    </partidos>
+    <partido>Partido Democrático</partido>
     <esposa>Maria do Carmo Xavier Braga</esposa>
   </Presidente>
 
@@ -47,9 +43,7 @@
     <fim>1918</fim>
     <nascimento>1 de maio de 1872</nascimento>
     <morte>14 de dezembro de 1918</morte>
-    <partidos>
-      <partido>Partido Nacional Republicano</partido>
-    </partidos>
+    <partido>Partido Nacional Republicano</partido>
     <esposa>Maria dos Prazeres Martins Bessa Pais</esposa>
   </Presidente>
 
@@ -60,9 +54,7 @@
     <fim>1919</fim>
     <nascimento>19 de maio de 1862</nascimento>
     <morte>14 de março de 1934</morte>
-    <partidos>
-      <partido>Partido Nacional Republicano</partido>
-    </partidos>
+    <partido>Partido Nacional Republicano</partido>
     <esposa>Mariana de Santo António Moreira Freire Correia Manuel Torres de Aboim</esposa>
   </Presidente>
 
@@ -73,11 +65,7 @@
     <fim>1923</fim>
     <nascimento>17 de julho de 1866</nascimento>
     <morte>31 de outubro de 1929</morte>
-    <partidos>
-      <partido>Partido Evolucionista</partido>
-      <partido>Partido Liberal Republicano</partido>
-      <partido>Liberal Republicano</partido>
-    </partidos>
+    <partido>Partido Liberal Republicano</partido>
     <esposa>Maria Joana Perdigão Queiroga de Almeida</esposa>
   </Presidente>
 
@@ -88,9 +76,7 @@
     <fim>1925</fim>
     <nascimento>27 de maio de 1860</nascimento>
     <morte>18 de outubro de 1941</morte>
-    <partidos>
       <partido>Partido Democrático</partido>
-    </partidos>
     <esposa>Belmira das Neves</esposa>
   </Presidente>
 
@@ -101,9 +87,7 @@
     <fim>1926</fim>
     <nascimento>28 de março de 1851</nascimento>
     <morte>29 de abril de 1944</morte>
-    <partidos>
-      <partido>Partido Democrático</partido>
-    </partidos>
+    <partido>Partido Democrático</partido>
     <esposa>Elzira Dantas Gonçalves Pereira</esposa>
   </Presidente>
 
@@ -114,9 +98,7 @@
     <fim>1926</fim>
     <nascimento>19 de setembro de 1883</nascimento>
     <morte>2 de junho de 1965</morte>
-    <partidos>
-      <partido>Independente</partido>
-    </partidos>
+    <partido>Independente</partido>
     <esposa>Maria das Dores Formosinho Vieira Cabeçadas</esposa>
   </Presidente>
 
@@ -127,9 +109,7 @@
     <fim>1926</fim>
     <nascimento>14 de janeiro de 1863</nascimento>
     <morte>17 de dezembro de 1929</morte>
-    <partidos>
-      <partido>Independente</partido>
-    </partidos>
+    <partido>Independente</partido>
     <esposa>Henriqueta Júlia de Mira Godinho</esposa>
   </Presidente>
 
@@ -140,9 +120,7 @@
     <fim>1951</fim>
     <nascimento>24 de novembro de 1869</nascimento>
     <morte>18 de abril de 1951</morte>
-    <partidos>
       <partido>União Nacional</partido>
-    </partidos>
     <esposa>Maria do Carmo Ferreira da Silva Carmona</esposa>
   </Presidente>
 
@@ -153,9 +131,7 @@
     <fim>1958</fim>
     <nascimento>12 de abril de 1894</nascimento>
     <morte>2 de setembro de 1964</morte>
-    <partidos>
       <partido>União Nacional</partido>
-    </partidos>
     <esposa>Berta da Costa Ribeiro Arthur</esposa>
   </Presidente>
 
@@ -166,9 +142,7 @@
     <fim>1974</fim>
     <nascimento>19 de novembro de 1894</nascimento>
     <morte>18 de setembro de 1987</morte>
-    <partidos>
       <partido>União Nacional</partido>
-    </partidos>
     <esposa>Gertrudes Ribeiro da Costa Thomaz</esposa>
   </Presidente>
 
@@ -179,9 +153,7 @@
     <fim>1974</fim>
     <nascimento>11 de abril de 1910</nascimento>
     <morte>13 de agosto de 1996</morte>
-    <partidos>
       <partido>Independente</partido>
-    </partidos>
     <esposa>Maria Helena Martins Monteiro de Barros Spínola</esposa>
   </Presidente>
 
@@ -192,9 +164,7 @@
     <fim>1976</fim>
     <nascimento>30 de Junho de 1914</nascimento>
     <morte>31 de Julho de 2001</morte>
-    <partidos>
       <partido>Independente</partido>
-    </partidos>
     <esposa>Maria Estela Veloso de Antas Varajão</esposa>
   </Presidente>
 
@@ -204,9 +174,7 @@
     <inicio>1976</inicio>
     <fim>1986</fim>
     <nascimento>25 de janeiro de 1935</nascimento>
-    <partidos>
       <partido>Independente</partido>
-    </partidos>
     <esposa>Manuela Ramalho Eanes</esposa>
   </Presidente>
 
@@ -216,9 +184,7 @@
     <inicio>1986</inicio>
     <fim>1996</fim>
     <nascimento>7 de dezembro de 1924</nascimento>
-    <partidos>
       <partido>Partido Socialista</partido>
-    </partidos>
     <esposa>Maria Barroso</esposa>
   </Presidente>
 
@@ -228,9 +194,7 @@
     <inicio>1996</inicio>
     <fim>2006</fim>
     <nascimento>	18 de setembro de 1939</nascimento>
-    <partidos>
       <partido>Partido Socialista</partido>
-    </partidos>
     <esposa>Maria José Rodrigues Ritta</esposa>
   </Presidente>
 
@@ -240,9 +204,7 @@
     <inicio>2006</inicio>
     <fim>2016</fim>
     <nascimento>15 de julho de 1939</nascimento>
-    <partidos>
       <partido>Partido Social Democrata</partido>
-    </partidos>
     <esposa>Maria Cavaco Silva</esposa>
   </Presidente>
 
@@ -251,9 +213,7 @@
     <image>https://upload.wikimedia.org/wikipedia/commons/8/8e/MarceloRebeloDeSousa_10Jun2016.png</image>
     <inicio>2016</inicio>
     <nascimento>12 de dezembro de 1948</nascimento>
-    <partidos>
-      <partido>Partido Social Democrata</partido>
-    </partidos>
+    <partido>Partido Social Democrata</partido>
   </Presidente>
   
 </Presidentes>

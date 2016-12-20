@@ -3,13 +3,11 @@
   <feed name="Comunicados do Conselho de Ministros" url="http://www.portugal.gov.pt/pt/o-governo/cm/comunicados/rss" />
   <feed name="Notícias do Primeiro-Ministro" url="http://www.portugal.gov.pt/pt/pm/noticias/rss" />
   <feed name="Notícias do Ministro dos Negócios Estrangeiros" url="http://www.portugal.gov.pt/pt/ministerios/mne/noticias/rss" />
-  <feed name="Notícias da Ministra da Presidência e da Modernização Administrativa" url="http://www.portugal.gov.pt/pt/ministerios/mpma/noticias/rss" />
   <feed name="Notícias do Ministro das Finanças" url="http://www.portugal.gov.pt/pt/ministerios/mf/noticias/rss" />
   <feed name="Notícias do Ministro da Defesa Nacional" url="http://www.portugal.gov.pt/pt/ministerios/mdn/noticias/rss" />
   <feed name="Notícias da Ministra da Administração Interna" url="http://www.portugal.gov.pt/pt/ministerios/mai/noticias/rss" />
   <feed name="Notícias da Ministra da Justiça" url="http://www.portugal.gov.pt/pt/ministerios/mj/noticias/rss" />
   <feed name="Notícias do Ministro Adjunto" url="http://www.portugal.gov.pt/pt/ministerios/madj/noticias/rss" />
   <feed name="Notícias do Ministro da Cultura" url="http://www.portugal.gov.pt/pt/ministerios/mc/noticias/rss" />
-  <feed name="Notícias do Ministro da Ciência, Tecnologia e Ensino Superior" url="http://www.portugal.gov.pt/pt/ministerios/mctes/noticias/rss" />
   <feed name="Notícias do Ministro da Educação" url="http://www.portugal.gov.pt/pt/ministerios/medu/noticias/rss" />
 </feeds>

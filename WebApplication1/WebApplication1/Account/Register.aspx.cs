@@ -15,7 +15,7 @@ namespace WebApplication1.Account
         {
             var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
             var signInManager = Context.GetOwinContext().Get<ApplicationSignInManager>();
-            var user = new ApplicationUser() { UserName = Name.Text, Email = Email.Text };
+            var user = new ApplicationUser() { UserName = Email.Text, Email = Email.Text, FullName = Name.Text};
             IdentityResult result = manager.Create(user, Password.Text);
             if (result.Succeeded)
             {
@@ -24,10 +24,10 @@ namespace WebApplication1.Account
                 //string callbackUrl = IdentityHelper.GetUserConfirmationRedirectUrl(code, user.Id, Request);
                 //manager.SendEmail(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>.");
 
-                signInManager.SignIn( user, isPersistent: false, rememberBrowser: false);
+                signInManager.SignIn(user, isPersistent: false, rememberBrowser: false);
                 IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
             }
-            else 
+            else
             {
                 ErrorMessage.Text = result.Errors.FirstOrDefault();
             }
