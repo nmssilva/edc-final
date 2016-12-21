@@ -63,7 +63,7 @@
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Bem-vindo, <%: Context.User.Identity.Name.Split('@')[0]  %> !</a></li>
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Bem-vindo, <%: getUserFullName() %> !</a></li>
                                 <li>
                                     <a runat="server" href="~/personal/admin/UserManager">Gestor de Utilizadores</a> 
                                 </li>

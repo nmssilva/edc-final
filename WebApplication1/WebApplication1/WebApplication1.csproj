@@ -17,7 +17,7 @@
     <AssemblyName>WebApplication1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -222,12 +222,15 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="personal\manageFeeds.aspx" />
+    <Content Include="personal\admin\manageFeeds.aspx" />
     <Content Include="personal\Presidente.aspx" />
     <Content Include="presidente.xslt" />
     <Content Include="presidentes.xslt" />
     <Content Include="personal\Web.config" />
     <Content Include="personal\admin\Web.config" />
+    <None Include="Presidentes1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Presidentes.aspx" />
     <Content Include="Presidentes.xml" />
@@ -266,6 +269,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="SqlQuery_1.sql" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -415,6 +419,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="personal\admin\UserManager.aspx.cs">
       <DependentUpon>UserManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="personal\admin\UserManager.aspx.designer.cs">
       <DependentUpon>UserManager.aspx</DependentUpon>
@@ -430,11 +435,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="IISHandler1.cs" />
-    <Compile Include="personal\manageFeeds.aspx.cs">
+    <Compile Include="personal\admin\manageFeeds.aspx.cs">
       <DependentUpon>manageFeeds.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="personal\manageFeeds.aspx.designer.cs">
+    <Compile Include="personal\admin\manageFeeds.aspx.designer.cs">
       <DependentUpon>manageFeeds.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
@@ -499,7 +504,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3031</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8000/</IISUrl>
+          <IISUrl>https://localhost:44300/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

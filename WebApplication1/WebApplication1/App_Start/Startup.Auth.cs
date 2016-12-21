@@ -52,18 +52,18 @@ namespace WebApplication1
             //    clientSecret: "");
 
             //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            //   consumerKey: "inHd70cxdt4zDsQfIN4Xa6vDD",
+            //   consumerSecret: "U9cCY2TEEYAtbWN08TzNtUGJ6jeTjkLOVOB1o5Efghdsnl8MxE");
 
             //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            //   appId: "330154407368993",
+            //   appSecret: "6710465d00d1e60faf2d8bd4bfbde158");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "605818855506-6gu9ppgm91ic0kh4v79hhii2qcgksmpl.apps.googleusercontent.com",
+                ClientSecret = "v3o8EJos7X9ewQXaFQ011dCJ"
+            });
         }
     }
 }

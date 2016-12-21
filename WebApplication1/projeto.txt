@@ -1,0 +1,15 @@
+Presidentes e Governo de Portugal
+
+users:
+mrsousa@presidente.pt
+admin@admin.pt
+
+password: qweQWE123!"#
+
+A password é igual para todos os users
+Além destes users também existem os que fazem login a partir da API do google.
+
+O sistema consiste na visualização de uma tabela cuja fonte de dados é um ficheiro xml e xslt. A visualização da tabela é pública. Ao clicar num item aparece os detalhes que é já uma vista privada onde é preciso entrar no sistema.
+A vista detalhada usa a mesma fonte de dados com um filtro XPath para o presidente escolhido.
+O sistema dispõe também de canais RSS e de um Gestor de canais. A pagina de gestão de canais é restrito ao administrador do sistema (admin@admin.pt) tal como a página de gestão de utilizadores.
+

@@ -11,24 +11,18 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h2>Presidentes da República</h2>
             <p>
                 Uma lista em detalhe sobre as entidades que subiram à Presidência da República Portuguesa. 
                 Informação sobre duração dos seus mandatos, posições políticas, etc...
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h2>Canais RSS</h2>
             <p>
                 Notícias e Comunicados do Conselho de Minístros.
                 Uma lista de canais ao dispor entregando informação na hora.
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
             </p>
         </div>
     </div>

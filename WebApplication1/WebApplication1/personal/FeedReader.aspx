@@ -23,7 +23,7 @@
         </div>
         
         <div class="col-md-6" style="text-align: right; margin-top: 0px;">
-            <asp:LinkButton ID="ManageFeeds" PostBackUrl="~/personal/manageFeeds.aspx" runat="server" CssClass="btn btn-primary"><i class="fa fa-rss"></i>&nbsp;Gestor de Canais</asp:LinkButton>
+            <asp:LinkButton ID="ManageFeeds" PostBackUrl="~/personal/admin/manageFeeds.aspx" runat="server" CssClass="btn btn-primary"><i class="fa fa-rss"></i>&nbsp;Gestor de Canais</asp:LinkButton>
         </div>
         
         <div class="col-md-6" style="text-align: left; margin-top: 10px;">

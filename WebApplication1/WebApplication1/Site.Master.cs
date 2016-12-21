@@ -8,6 +8,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using System.Data.SqlClient;
+using WebApplication1.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace WebApplication1
 {
@@ -70,6 +72,15 @@ namespace WebApplication1
 
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
+
+        protected String getUserFullName()
+        {
+            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()));
+
+            var currentUser = manager.FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
+
+            return currentUser.FullName;
         }
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
